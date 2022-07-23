@@ -1,0 +1,149 @@
+/* 導覽列 */
+@media (max-width: 767px){
+    .nav{
+        background-color: #AA0601;
+        padding: 0;
+    }
+    .nav_container{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .logo{
+        margin: 0 auto;
+        padding: 16px 0;
+    }
+    .menu{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .menu li{
+        width: 50%;
+        padding: 12px 62px;
+        border: 1px solid #fff;
+    }
+    .menu a{
+        margin: 0 auto;
+        font-size: 16px;
+    }
+/* 導覽列END */
+
+/* 品牌介紹 */
+    .intro-title{
+        font-size: 40px;
+    }
+    .intro{
+        flex-wrap: wrap;
+        margin-bottom: 64px;
+    }
+    .intro-item{
+        width: 100%;
+        margin-bottom: 36px;
+    }   
+/* 品牌介紹END */
+
+/* 經典系列 */
+    .classical-title{
+        font-size: 40px;
+    }
+    .classicalSeries{
+        flex-wrap: wrap; 
+        margin-bottom: 48px;   
+    }
+    
+    .classicalSeries-item{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 48px;
+    }
+    
+    .classicalSeries-item a{
+        font-size: 32px;
+    }
+/* 經典系列END */
+
+/* 聯名設計 */
+    .co-brand-bg{
+        padding: 40px 0;
+    }
+    .co-brand-container{
+        width: 90%;
+    }
+    .co-brand-title{
+        font-size: 40px;
+    }
+    .co-brand{
+        flex-wrap: wrap;
+    }
+    .co-brand-item{
+        margin-bottom: 24px;
+    }
+    .co-brand li{
+    }
+    .co-brand a p{
+        font-size: 32px;
+    }
+/* 聯名設計END */
+
+/* 顧客推薦 */
+    .recommend-title{
+        font-size: 40px;
+    }
+    .recommend{
+        flex-wrap: wrap;
+        margin-bottom: 64px;
+    }
+    .recommend-item{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .recommend-item li{
+    }
+/* 顧客推薦END */
+/* 聯絡我們 */
+    .contact-container{
+        width: 75%;
+    }
+    .contact-tilte{
+        font-size: 40px;
+    }  
+/* 聯絡我們END */
+
+/* footer */
+    .footer-bg{
+        padding: 0;
+    }
+    .footer-container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 24px 14px 24px 13px;
+    }
+    .contact-item a{
+        font-size: 16px;
+    }
+
+    .subMenu{
+        display: none;
+    }
+    .social a{
+        margin-right: 8px;
+    }
+    .social img{
+        width: 24px;
+    }
+    .copyright{
+        flex-direction: column;
+        padding-top: 24px;
+    }
+    .term{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright-content{
+        margin-bottom: 16px;
+    }
+    .term a{
+        margin-bottom: 8px;
+    }
+}
+/* footerEND*/
