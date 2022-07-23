@@ -60,29 +60,6 @@
 .slogan a:hover{
     background-color: #650300;
 }
-@media (max-width: 767px){
-    .header{
-        height: 400px;
-        background-position: right;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .slogan{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .slogan h3{
-        font-size: 24px;
-    }
-    .slogan h2{
-        font-size: 40px;
-    }
-
-
-}
 /* banner end */
 
 .intro{
@@ -169,7 +146,16 @@ label{
     border-radius: 0%;
     border: 1px solid #000;
 }
-
+.contact-comfirm{
+    display: block;
+    width: 65.4%;
+    margin: 0 auto;
+    background-color: #AA0601;
+    border: none;
+    color: white;
+    padding: 16px 0px;
+    margin-bottom: 80px;
+}
 /* 聯絡我們END */
 
 /* footer */

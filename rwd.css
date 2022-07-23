@@ -28,6 +28,30 @@
     }
 /* 導覽列END */
 
+/* banner */
+@media (max-width: 767px){
+    .header{
+        height: 400px;
+        background-position: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slogan{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .slogan h3{
+        font-size: 24px;
+    }
+    .slogan h2{
+        font-size: 40px;
+    }
+}
+/* bannerEND */
+
 /* 品牌介紹 */
     .intro-title{
         font-size: 40px;
@@ -107,6 +131,13 @@
     .contact-tilte{
         font-size: 40px;
     }  
+
+    .contact-comfirm{
+        width: 100%;
+        padding: 16px 0px;
+        margin-bottom: 48px;
+    }
+    
 /* 聯絡我們END */
 
 /* footer */
