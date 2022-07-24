@@ -29,8 +29,14 @@ a{
 .fz-24{
     font-size: 24px;
 }
+.fz-32{
+    font-size: 32px;
+}
 .fz-36{
     font-size: 36px;
+}
+.fz-42{
+    font-size: 42px;
 }
 .fz-48{
     font-size: 48px;
@@ -70,6 +76,9 @@ a{
 .txt-red{
     color: #AA0601;
 }
+.txt-black{
+    color: #000;
+}
 .txt-gray{
     color: #707070;
 }
@@ -108,6 +117,9 @@ a{
 }
 .mr-4{
     margin-right: 4px;
+}
+.mr-8{
+    margin-right: 8px;
 }
 .mr-22{
     margin-right: 22px;
