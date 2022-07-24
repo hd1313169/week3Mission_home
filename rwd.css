@@ -70,6 +70,9 @@
 /* 品牌介紹END */
 
 /* 經典系列 */
+    .classicalSeries-container{
+        width: 100%;
+    }
     .classical-title{
         font-size: 36px;
         margin-bottom: 20px;
@@ -95,7 +98,7 @@
         padding: 40px 0;
     }
     .co-brand-container{
-        width: 90%;
+        width: 100%;
     }
     .co-brand-title{
         font-size: 36px;
@@ -129,6 +132,7 @@
         width: 100%;
         margin: 0 0 24px 0;
     }
+
 /* 顧客推薦END */
 /* 聯絡我們 */
     .contact-container{
