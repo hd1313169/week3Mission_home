@@ -1,4 +1,13 @@
 /* 導覽列 */
+@media (max-width: 992px){
+    .tablet-container{
+        width: 92.5%;
+    }
+    .classicalSeries-item a{
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 767px){
     .nav{
         background-color: #AA0601;
